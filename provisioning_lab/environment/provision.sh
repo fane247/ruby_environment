@@ -12,7 +12,7 @@ sudo gem install rails
 sudo apt-get install nginx -y
 sudo apt-get install nodejs -y
 sudo rm /etc/nginx/sites-available/default
-sudo cp ~/app/environment/templates/default /etc/nginx/sites-available/default
+sudo cp ~/app/provisioning_lab/environment/templates/default /etc/nginx/sites-available/default
 sudo service nginx reload 
 
 
