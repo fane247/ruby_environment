@@ -1,0 +1,44 @@
+2017/08/09 21:08:08 [emerg] 25014#0: bind() to 0.0.0.0:3000 failed (98: Address already in use)
+2017/08/09 21:08:08 [emerg] 25014#0: bind() to 0.0.0.0:3000 failed (98: Address already in use)
+2017/08/09 21:08:08 [emerg] 25014#0: bind() to 0.0.0.0:3000 failed (98: Address already in use)
+2017/08/09 21:08:08 [emerg] 25014#0: bind() to 0.0.0.0:3000 failed (98: Address already in use)
+2017/08/09 21:08:08 [emerg] 25014#0: bind() to 0.0.0.0:3000 failed (98: Address already in use)
+2017/08/09 21:08:08 [emerg] 25014#0: still could not bind()
+2017/08/09 21:08:22 [emerg] 25022#0: bind() to 0.0.0.0:3000 failed (98: Address already in use)
+2017/08/09 21:08:22 [emerg] 25022#0: bind() to 0.0.0.0:3000 failed (98: Address already in use)
+2017/08/09 21:08:22 [emerg] 25022#0: bind() to 0.0.0.0:3000 failed (98: Address already in use)
+2017/08/09 21:08:22 [emerg] 25022#0: bind() to 0.0.0.0:3000 failed (98: Address already in use)
+2017/08/09 21:08:22 [emerg] 25022#0: bind() to 0.0.0.0:3000 failed (98: Address already in use)
+2017/08/09 21:08:22 [emerg] 25022#0: still could not bind()
+2017/08/09 21:08:27 [emerg] 25030#0: bind() to 0.0.0.0:3000 failed (98: Address already in use)
+2017/08/09 21:08:27 [emerg] 25030#0: bind() to 0.0.0.0:3000 failed (98: Address already in use)
+2017/08/09 21:08:27 [emerg] 25030#0: bind() to 0.0.0.0:3000 failed (98: Address already in use)
+2017/08/09 21:08:27 [emerg] 25030#0: bind() to 0.0.0.0:3000 failed (98: Address already in use)
+2017/08/09 21:08:27 [emerg] 25030#0: bind() to 0.0.0.0:3000 failed (98: Address already in use)
+2017/08/09 21:08:27 [emerg] 25030#0: still could not bind()
+[ 2017-08-10 08:48:48.2208 24069/7fd751668740 age/Wat/WatchdogMain.cpp:1283 ]: Starting Passenger watchdog...
+[ 2017-08-10 08:48:48.2271 24072/7f60698ab740 age/Cor/CoreMain.cpp:1083 ]: Starting Passenger core...
+[ 2017-08-10 08:48:48.2274 24072/7f60698ab740 age/Cor/CoreMain.cpp:248 ]: Passenger core running in multi-application mode.
+[ 2017-08-10 08:48:48.2369 24072/7f60698ab740 age/Cor/CoreMain.cpp:830 ]: Passenger core online, PID 24072
+[ 2017-08-10 08:48:48.2417 24078/7fc89a83e740 age/Ust/UstRouterMain.cpp:537 ]: Starting Passenger UstRouter...
+[ 2017-08-10 08:48:48.2426 24078/7fc89a83e740 age/Ust/UstRouterMain.cpp:350 ]: Passenger UstRouter online, PID 24078
+2017/08/10 08:48:50 [error] 24097#0: *4 directory index of "/home/ubuntu/app/public/" is forbidden, client: 127.0.0.1, server: _, request: "HEAD / HTTP/1.1", host: "0.0.0.0"
+[ 2017-08-10 08:48:50.5277 24072/7f6069796700 age/Cor/SecurityUpdateChecker.h:374 ]: Security update check: no update found (next check in 24 hours)
+2017/08/10 08:49:17 [error] 24097#0: *5 directory index of "/home/ubuntu/app/public/" is forbidden, client: 192.168.10.1, server: _, request: "GET / HTTP/1.1", host: "192.168.10.100:3000"
+
+
+[ 2017-08-10 08:52:56.5016 24078/7fc898ed4700 age/Ust/UstRouterMain.cpp:430 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2017-08-10 08:52:56.5017 24072/7f60635ec700 age/Cor/CoreMain.cpp:588 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2017-08-10 08:52:56.5018 24078/7fc89a83e740 age/Ust/UstRouterMain.cpp:500 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2017-08-10 08:52:56.5019 24072/7f60698ab740 age/Cor/CoreMain.cpp:1002 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2017-08-10 08:52:56.5020 24078/7fc898ed4700 Ser/Server.h:490 ]: [UstRouter] Shutdown finished
+[ 2017-08-10 08:52:56.5020 24072/7f60635ec700 Ser/Server.h:862 ]: [ServerThr.1] Freed 0 spare client objects
+[ 2017-08-10 08:52:56.5021 24072/7f60635ec700 Ser/Server.h:490 ]: [ServerThr.1] Shutdown finished
+[ 2017-08-10 08:52:56.5022 24078/7fc88bfff700 Ser/Server.h:862 ]: [UstRouterApiServer] Freed 0 spare client objects
+[ 2017-08-10 08:52:56.5023 24078/7fc88bfff700 Ser/Server.h:490 ]: [UstRouterApiServer] Shutdown finished
+[ 2017-08-10 08:52:56.5022 24072/7f6062deb700 Ser/Server.h:862 ]: [ServerThr.2] Freed 0 spare client objects
+[ 2017-08-10 08:52:56.5026 24072/7f6062deb700 Ser/Server.h:490 ]: [ServerThr.2] Shutdown finished
+[ 2017-08-10 08:52:56.5029 24078/7fc89a83e740 age/Ust/UstRouterMain.cpp:531 ]: Passenger UstRouter shutdown finished
+[ 2017-08-10 08:52:56.5024 24072/7f60625ea700 Ser/Server.h:862 ]: [ApiServer] Freed 0 spare client objects
+[ 2017-08-10 08:52:56.5032 24072/7f60625ea700 Ser/Server.h:490 ]: [ApiServer] Shutdown finished
+[ 2017-08-10 08:52:56.5483 24072/7f60698ab740 age/Cor/CoreMain.cpp:1068 ]: Passenger core shutdown finished
